@@ -1,0 +1,8 @@
+com\yourname\hxauctionhouse\managers\AuctionManager.class
+com\yourname\hxauctionhouse\managers\AuctionManager$AuctionItem.class
+com\yourname\hxauctionhouse\gui\AuctionGUI.class
+com\yourname\hxauctionhouse\HxAuctionHouse.class
+com\yourname\hxauctionhouse\managers\ConfigManager.class
+com\yourname\hxauctionhouse\utils\ItemBuilder.class
+com\yourname\hxauctionhouse\commands\AuctionCommand.class
+com\yourname\hxauctionhouse\utils\PriceUtil.class

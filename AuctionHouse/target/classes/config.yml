@@ -1,0 +1,49 @@
+# HxAuctionHouse Configuration
+
+auction:
+  # Maximum time (in seconds) an item can be listed for (48 hours)
+  maxListingTime: 172800
+  
+  # Minimum price for an item
+  minPrice: 0.0
+  
+  # Maximum price for an item
+  maxPrice: 1000000.0
+  
+  # Fee for listing an item
+  listingFee: 10.0
+  
+  # Maximum number of items a player can have listed at once
+  maxListingsPerPlayer: 10
+
+settings:
+  # Maximum number of items a player can have listed at once
+  max-listings-per-player: 10
+  
+  # How long items stay in the auction house (in hours)
+  listing-duration: 24
+  
+  # Minimum price for an item
+  min-price: 1
+  
+  # Maximum price for an item
+  max-price: 1000000000
+  
+  # Tax percentage on sales (0-100)
+  sales-tax: 5
+  
+  # Whether to announce new listings in chat
+  announce-listings: true
+  
+messages:
+  prefix: "&6[AuctionHouse] &r"
+  item-listed: "&aYou listed &6%item% &afor &6$%price%"
+  item-bought: "&aYou bought &6%item% &afor &6$%price%"
+  item-sold: "&aYour &6%item% &awas sold for &6$%price%"
+  item-expired: "&cYour listing for &6%item% &chas expired"
+  not-enough-money: "&cYou don't have enough money!"
+  inventory-full: "&cYour inventory is full!"
+  max-listings-reached: "&cYou can only have %max% items listed at once!"
+  invalid-price: "&cPrice must be between &6$%min% &cand &6$%max%"
+  no-permission: "&cYou don't have permission to do that!"
+  listing-cancelled: "&aListing cancelled. Item returned to your inventory."

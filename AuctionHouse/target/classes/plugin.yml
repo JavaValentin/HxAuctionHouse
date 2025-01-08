@@ -1,0 +1,36 @@
+name: HxAuctionHouse
+version: '1.0'
+main: com.yourname.hxauctionhouse.HxAuctionHouse
+api-version: '1.21'
+depend: [Vault]
+description: Advanced auction house plugin with Vault economy integration
+author: YourName
+
+commands:
+  ah:
+    description: Main auction house command
+    usage: /ah [sell|browse|listings]
+    aliases: [auctionhouse]
+    permission: hxauctionhouse.use
+  
+permissions:
+  hxauctionhouse.use:
+    description: Allows using the auction house
+    default: true
+  hxauctionhouse.sell:
+    description: Allows selling items in the auction house
+    default: true
+  hxauctionhouse.buy:
+    description: Allows buying items from the auction house
+    default: true
+  hxauctionhouse.cancel:
+    description: Allows canceling your own auctions
+    default: true
+  hxauctionhouse.admin:
+    description: Gives access to admin commands
+    default: op
+    children:
+      hxauctionhouse.use: true
+      hxauctionhouse.sell: true
+      hxauctionhouse.buy: true
+      hxauctionhouse.cancel: true
