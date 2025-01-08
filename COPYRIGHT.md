@@ -6,6 +6,4 @@ By using this plugin, you acknowledge and agree that it is copyrighted. Unauthor
 
 This work is registered with Copyrighted.com:
 
-<a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://app.copyrighted.com/work/XDonh19HyNSECr4F">
-  <img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/01_2_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/01_2.png">
-</a> HxAuctionHouse 2025
+© 2025 HxAuctionHouse, All rights reserved!
